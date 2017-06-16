@@ -1,0 +1,21 @@
+{
+  "itemName" : "florancuteaichip",
+
+  "shortdescription" : "Cute Floran A.I. Chip",
+  "description" : "A Cute Floran A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/florancutequestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "FloranCuteAI.png",
+    "staticFrames" : "staticFloran.png",
+    "portraitFrames" : "portraits/florancuteportrait.png",
+    "questPortrait" : "florancute"
+  }
+}

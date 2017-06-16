@@ -1,0 +1,21 @@
+{
+  "itemName" : "apexcuteaichip",
+
+  "shortdescription" : "Cute Apex A.I. Chip",
+  "description" : "A Cute Apex A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/apexcutequestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "ApexCuteAI.png",
+    "staticFrames" : "staticApex.png",
+    "portraitFrames" : "portraits/apexcuteportrait.png",
+    "questPortrait" : "apexcute"
+  }
+}

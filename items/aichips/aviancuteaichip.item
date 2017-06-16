@@ -1,0 +1,21 @@
+{
+  "itemName" : "aviancuteaichip",
+
+  "shortdescription" : "Cute Avian A.I. Chip",
+  "description" : "A Cute Avian A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/aviancutequestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "AvianCuteAI.png",
+    "staticFrames" : "staticAvian.png",
+    "portraitFrames" : "portraits/aviancuteportrait.png",
+    "questPortrait" : "aviancute"
+  }
+}

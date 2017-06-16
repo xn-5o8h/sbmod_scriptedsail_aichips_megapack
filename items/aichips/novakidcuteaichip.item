@@ -1,0 +1,21 @@
+{
+  "itemName" : "novakidcuteaichip",
+
+  "shortdescription" : "Cute Novakid A.I. Chip",
+  "description" : "A Cute Novakid A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/novakidcutequestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "NovakidCuteAI.png",
+    "staticFrames" : "staticNovakid.png",
+    "portraitFrames" : "portraits/novakidcuteportrait.png",
+    "questPortrait" : "novakidcute"
+  }
+}
