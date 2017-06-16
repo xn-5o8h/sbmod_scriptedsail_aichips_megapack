@@ -1,0 +1,21 @@
+{
+  "itemName" : "vieraaichip",
+
+  "shortdescription" : "Viera A.I. Chip",
+  "description" : "A Viera A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/vieraquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "vieraai.png",
+    "staticFrames" : "staticviera.png",
+    "portraitFrames" : "portraits/vieraportrait.png",
+    "questPortrait" : "viera"
+  }
+}

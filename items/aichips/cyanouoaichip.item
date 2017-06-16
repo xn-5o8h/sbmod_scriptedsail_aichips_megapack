@@ -1,0 +1,21 @@
+{
+  "itemName" : "cyanouoaichip",
+
+  "shortdescription" : "Cyan OuO A.I. Chip",
+  "description" : "A cyan model of the OuO A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/ai.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "CyanOuOAI.png",
+    "staticFrames" : "staticHylotl.png",
+    "portraitFrames" : "portraits/cyanouoportrait.png",
+    "questPortrait" : "cyanouo"
+  }
+}

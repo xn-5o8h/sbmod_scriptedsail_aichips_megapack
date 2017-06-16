@@ -1,0 +1,21 @@
+{
+  "itemName" : "attaranaichip",
+
+  "shortdescription" : "Attaran A.I. Chip",
+  "description" : "An Attaran A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/Attarranquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "AttarranAI.png",
+    "staticFrames" : "staticAttarran.png",
+    "portraitFrames" : "portraits/Attarranportrait.png",
+    "questPortrait" : "Attaran"
+  }
+}

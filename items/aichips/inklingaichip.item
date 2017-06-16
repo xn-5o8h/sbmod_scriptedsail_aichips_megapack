@@ -1,0 +1,21 @@
+{
+  "itemName" : "inklingaichip",
+
+  "shortdescription" : "Inkling A.I. Chip",
+  "description" : "An Inkling A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/inklingquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "inklingAi.png",
+    "staticFrames" : "staticinkling.png",
+    "portraitFrames" : "portraits/inklingportrait.png",
+    "questPortrait" : "inkling"
+  }
+}

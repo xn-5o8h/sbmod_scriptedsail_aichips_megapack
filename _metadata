@@ -1,0 +1,9 @@
+{
+  "author" : "Cyel, original mods by lotsa people",
+  "description" : "This mod is a pack that should contain all the A.I. chips in this collection -> http://steamcommunity.com/sharedfiles/filedetails/?id=947429656\nThey're to be used with my [url=http://steamcommunity.com/sharedfiles/filedetails/?id=947429656]Scripted S.A.I.L. mod[/url]. All credits go to their respective creators, which are mentionned in the individual mods listed the above collection.\n\nI feel like this is redundant with the collection, but it seems people prefer to have one big mod rather than plenty of tiny ones, so here you go!",
+  "friendlyName" : "S.A.I.L. chips megapack",
+  "link" : "steam://url/CommunityFilePage/947922190",
+  "name" : "aichip_megapack",
+  "steamContentId" : "947922190",
+  "version" : "1.0"
+}

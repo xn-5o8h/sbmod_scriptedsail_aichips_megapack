@@ -1,0 +1,22 @@
+{
+  "itemName" : "servalchanaichip",
+
+  "shortdescription" : "Serval-Chan A.I. Chip",
+  "description" : "A Serval-Chan A.I. chip of the Kemono Friends serie. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/servalchanquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "servalchanAI.png",
+    "portraitFrames" : "portraits/servalchanportrait.png",
+    "questPortrait" : "servalchan",
+
+    "titleIcon": "/ai/isunAIicon.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "kirhosaichip",
+
+  "shortdescription" : "Kirhos A.I. Chip",
+  "description" : "A Kirhos A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/kirhosquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "kirhosai.png",
+    "staticFrames" : "statickirhos.png",
+    "portraitFrames" : "portraits/kirhosportrait.png",
+    "questPortrait" : "kirhos"
+  }
+}

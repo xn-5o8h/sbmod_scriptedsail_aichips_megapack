@@ -1,0 +1,21 @@
+{
+  "itemName" : "avaliaichip",
+
+  "shortdescription" : "avali A.I. Chip",
+  "description" : "A avali A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/avaliquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "avaliai.png",
+    "staticFrames" : "staticavali.png",
+    "portraitFrames" : "portraits/avaliportrait.png",
+    "questPortrait" : "avali"
+  }
+}

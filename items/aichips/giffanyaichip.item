@@ -1,0 +1,61 @@
+{
+  "itemName" : "giffanyaichip",
+
+  "shortdescription" : "Giffany A.I. Chip",
+  "description" : "A Giffany A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/ai.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "giffanyai.png",
+    "portraitFrames" : "portraits/giffanyportrait.png",
+
+    "title": "G.I.F.F.A.N.Y.",
+    "subtitle": "Graceful Intelligent Fluffy Fearsome Avenging Noble Yandere",
+
+    "missionsText" : {
+      "missionhuman1": {
+        "buttonText" : "Erchius Mining Facility",
+        "repeatButtonText" : "Revisit the Erchius Mining Facility",
+        "selectSpeech" : {
+          "animation" : "yell",
+          "text" : "^pink;Captain, You Seem To Have Coordinates To A Mining Facility. ^red; *Reading Terrain Data* ^pink; I'm Reading Multiple Unstable Life Forms There. Please Becareful Out There ^red;*Worrisome Look*",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionfloran1": {
+        "buttonText" : "The Ceremonial Hunting Caverns",
+        "repeatButtonText" : "Revisit The Ceremonial Hunting Caverns",
+        "selectSpeech" : {
+          "animation" : "yell",
+          "text" : "^red;*Narrow Eye Intensifies*^Pink; Captain...This Party Is Filthy And Disgusting. Why Would You Go There? To Investigate? To Have An Affair? Sorry For Questioning, But I Have A Bad Feeling About That Place^red;*Worried Look*",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionpenguin1": {
+        "buttonText" : "Dreadwing",
+        "repeatButtonText" : "Rechallenge Dreadwing",
+        "selectSpeech" : {
+          "animation" : "yell",
+          "text" : "^pink;Captain I'm Reading Multiple ^blue;Penguins...^Pink; Maybe You Should Spare Them? I Mean They Are So Kawaii!!^red;*Uber Eye Highlights* @v@",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionpenguin2": {
+        "buttonText" : "Weapon Testing Site",
+        "repeatButtonText" : "Revisit the Weapon Testing Site",
+        "selectSpeech" : {
+          "animation" : "yell",
+          "text" : "^pink;Captain This Site Seems To Have No Known Life Forms... But Something Is Strange Hidden Underground...^red;*Worried Look*",
+          "speedModifier" : 1.0
+        }
+      }
+    }
+  }
+}

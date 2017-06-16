@@ -1,0 +1,21 @@
+{
+  "itemName" : "remaichip",
+
+  "shortdescription" : "Rem A.I. Chip",
+  "description" : "A Rem model of the Re:Zero A.I. chip serie. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/remAIicon.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "remAI.png",
+    "staticFrames" : "staticrem.png",
+    "portraitFrames" : "portraits/remportrait.png",
+    "questPortrait" : "rem"
+  }
+}

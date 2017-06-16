@@ -1,0 +1,70 @@
+{
+  "itemName" : "eneaichip",
+
+  "shortdescription" : "Enomoto Ene A.I. Chip",
+  "description" : "An Enomoto Ene A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/enequestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "EneAI.png",
+    "staticFrames" : "staticApex.png",
+    "portraitFrames" : "portraits/eneportrait.png",
+    "questPortrait" : "ene",
+
+    "title": "Enomoto Ene",
+    "subtitle": "Takane Enomoto Ene Ship assistant",
+    "titleIcon": "/ai/portraits/enequestportrait.png",
+
+    "noCrewSpeech" : {
+      "animation" : "talk",
+      "text" : "^cyan;Hm? ^green;You are the only person ^cyan;registered on this ship.",
+      "speedModifier" : 0.7
+    },
+
+    "noMissionsSpeech" : {
+      "animation" : "talk",
+      "text" : "^cyan;You dont have any misions for now.",
+      "speedModifier" : 0.7
+    },
+
+    "missionsText" : {
+      "missionhuman1": {
+        "buttonText" : "Erchius Mining Facility",
+        "repeatButtonText" : "Revisit the Erchius Mining Facility",
+        "selectSpeech" : {
+          "animation" : "yell",
+          "text" : "^cyan;Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive! ^cyan;Just hurry up grab some and hurry back! ^red;They did come up as a distress signal, ^cyan;but I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      }
+    },
+
+    "shipStatus" : {
+      "1" : {
+        "animation" : "talk",
+        "text" : "^cyan;Master, The FTL drive and thrusters are totally fried!
+  ^green;Only the teleportation system seems to functioning correctly that means you can only access the planet below.
+  ^cyan;Now beam down and find something usefull ^red;because I am alredy tired of not being able to go anywhere, it is boring!",
+        "speedModifier" : 1
+      },
+      "2" : {
+        "animation" : "talk",
+        "text" : "^cyan;Master, since the thrusters are fine we can move somwhere else but only ^green;Planets within this star system. ^red;Now lets go somwhere else!",
+        "speedModifier" : 1
+      },
+      "3" : {
+        "animation" : "talk",
+        "text" : "^green;The ship is totaly fine.^#d825c8; 
+Now, can you please take me to an amusement park?",
+        "speedModifier" : 1
+      }
+    }
+  }
+}

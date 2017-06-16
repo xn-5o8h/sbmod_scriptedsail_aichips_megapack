@@ -1,0 +1,21 @@
+{
+  "itemName" : "umbreonaichip",
+
+  "shortdescription" : "Umbreon A.I. Chip",
+  "description" : "An Umbreon A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/Umbreonquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "Umbreonai.png",
+    "staticFrames" : "staticUmbreon.png",
+    "portraitFrames" : "portraits/Umbreonportrait.png",
+    "questPortrait" : "Umbreon"
+  }
+}

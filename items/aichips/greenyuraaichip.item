@@ -1,0 +1,21 @@
+{
+  "itemName" : "greenyuraaichip",
+
+  "shortdescription" : "Green YURA A.I. Chip",
+  "description" : "A green model of the YURA A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/yuraquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "GreenYuraAI.png",
+    "staticFrames" : "staticFloran.png",
+    "portraitFrames" : "portraits/yuraportrait.png",
+    "questPortrait" : "yura"
+  }
+}

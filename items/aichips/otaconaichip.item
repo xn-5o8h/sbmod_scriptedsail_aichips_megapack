@@ -1,0 +1,20 @@
+{
+  "itemName" : "otaconaichip",
+
+  "shortdescription" : "Otacon A.I. Chip",
+  "description" : "An Otacon A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/otaconquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "otaconAi.png",
+    "portraitFrames" : "portraits/otaconportrait.png",
+    "questPortrait" : "otacon"
+  }
+}

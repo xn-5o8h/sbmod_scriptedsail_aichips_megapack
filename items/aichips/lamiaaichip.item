@@ -1,0 +1,21 @@
+{
+  "itemName" : "lamiaaichip",
+
+  "shortdescription" : "Lamia A.I. Chip",
+  "description" : "A Lamia A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/lamiaquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "lamiaAI.png",
+    "staticFrames" : "staticlamia.png",
+    "portraitFrames" : "portraits/lamiaportrait.png",
+    "questPortrait" : "lamia"
+  }
+}

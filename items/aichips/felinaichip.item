@@ -1,0 +1,21 @@
+{
+  "itemName" : "felinaichip",
+
+  "shortdescription" : "Felin A.I. Chip",
+  "description" : "A Felin A.I. chip serie. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/felinquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "felinai.png",
+    "staticFrames" : "staticfelin.png",
+    "portraitFrames" : "portraits/felinportrait.png",
+    "questPortrait" : "felin"
+  }
+}

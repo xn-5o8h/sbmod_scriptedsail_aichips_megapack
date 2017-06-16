@@ -1,0 +1,26 @@
+{
+  "itemName" : "asrielaichip",
+
+  "shortdescription" : "ASRIEL A.I. Chip",
+  "description" : "An ASRIEL A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/asrielquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "asrielai.png",
+    "staticFrames" : "staticasriel.png",
+    "portraitFrames" : "portraits/asrielportrait.png",
+    "questPortrait" : "asriel",
+
+
+    "title": "A.S.R.I.E.L.",
+    "subtitle": "Artificial Ship-based Reconstructed Intelligent E.L",
+    "titleIcon": "/ai/asrielAIicon.png"
+  }
+}

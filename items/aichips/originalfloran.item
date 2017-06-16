@@ -1,0 +1,21 @@
+{
+  "itemName" : "originalfloranaichip",
+
+  "shortdescription" : "Alternate Floran A.I. Chip",
+  "description" : "An alternate Floran A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/originalfloranquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "originalfloranAi.png",
+    "staticFrames" : "staticoriginalfloran.png",
+    "portraitFrames" : "portraits/originalfloranportrait.png",
+    "questPortrait" : "originalfloran"
+  }
+}

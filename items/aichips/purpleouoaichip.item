@@ -1,0 +1,21 @@
+{
+  "itemName" : "purpleouoaichip",
+
+  "shortdescription" : "Purple OuO A.I. Chip",
+  "description" : "A purple model of the OuO A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/ai.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "PurpleOuOAI.png",
+    "staticFrames" : "staticGlitch.png",
+    "portraitFrames" : "portraits/purpleouoportrait.png",
+    "questPortrait" : "purpleouo"
+  }
+}

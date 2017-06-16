@@ -1,0 +1,24 @@
+{
+  "itemName" : "redrabbitaichip",
+
+  "shortdescription" : "Red Rabbit A.I. Chip",
+  "description" : "A Red Rabbit A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/redRabbitAIicon.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "RedRabbitAI.png",
+    "staticFrames" : "staticApex.png",
+
+    "portraitFrames" : "portraits/redrabbitportrait.png",
+    "questPortrait" : "redrabbit",
+
+    "titleIcon": "/ai/redRabbitAIicon.png"
+  }
+}

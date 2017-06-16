@@ -1,0 +1,25 @@
+{
+  "itemName" : "nekoaichip",
+
+  "shortdescription" : "Neko A.I. Chip",
+  "description" : "A model of the Neko A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/TALVIKKIicon.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "title": "TALVIKKI",
+    "subtitle": "Talv = Winter in Finnish. Plant name Pyrola, Wintergreen.",
+    "titleIcon": "/ai/TALVIKKIicon.png",
+  
+    "aiFrames" : "nekoai.png",
+    "staticFrames" : "staticneko.png",
+	  "portraitFrames" : "portraits/nekoportrait.png",
+    "questPortrait" : "neko"
+  }
+}

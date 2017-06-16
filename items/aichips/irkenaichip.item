@@ -1,0 +1,21 @@
+{
+  "itemName" : "irkenaichip",
+
+  "shortdescription" : "Irken A.I. Chip",
+  "description" : "An Irken A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/irkenquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "irkenAI.png",
+    "staticFrames" : "staticirken.png",
+    "portraitFrames" : "portraits/irkenportrait.png",
+    "questPortrait" : "irken"
+  }
+}

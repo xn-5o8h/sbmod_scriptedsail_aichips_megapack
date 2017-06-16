@@ -1,0 +1,21 @@
+{
+  "itemName" : "mentalmodelaichip",
+
+  "shortdescription" : "Mental Model A.I. Chip",
+  "description" : "A Mental Model A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/mentalmodelquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "mentalmodelAi.png",
+    "staticFrames" : "staticmentalmodel.png",
+    "portraitFrames" : "portraits/mentalmodelportrait.png",
+    "questPortrait" : "mentalmodel"
+  }
+}

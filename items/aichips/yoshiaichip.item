@@ -1,0 +1,21 @@
+{
+  "itemName" : "yoshiaichip",
+
+  "shortdescription" : "Yoshi A.I. Chip",
+  "description" : "A Yoshi A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/yoshiquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "yoshiAI.png",
+    "staticFrames" : "staticyoshi.png",
+    "portraitFrames" : "portraits/yoshiportrait.png",
+    "questPortrait" : "yoshi"
+  }
+}

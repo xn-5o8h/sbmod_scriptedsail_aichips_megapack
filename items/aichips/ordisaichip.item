@@ -1,0 +1,21 @@
+{
+  "itemName" : "ordisaichip",
+
+  "shortdescription" : "Ordis A.I. Chip",
+  "description" : "An Ordis A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/ordisquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "ordisAi.png",
+    "staticFrames" : "staticOrdis.png",
+    "portraitFrames" : "portraits/ordisportrait.png",
+    "questPortrait" : "ordis"
+  }
+}

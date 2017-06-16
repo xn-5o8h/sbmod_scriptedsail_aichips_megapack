@@ -1,0 +1,21 @@
+{
+  "itemName" : "dragonaichip",
+
+  "shortdescription" : "Draconis A.I. Chip",
+  "description" : "A Draconis A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/dragonquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "dragonAI.png",
+    "staticFrames" : "staticdragon.png",
+    "portraitFrames" : "portraits/dragonportrait.png",
+    "questPortrait" : "dragon"
+  }
+}

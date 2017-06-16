@@ -1,0 +1,19 @@
+{
+  "itemName" : "greenrobokrabaichip",
+
+  "shortdescription" : "Green Robokrab A.I. Chip",
+  "description" : "A green model of the Robokrab A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/ai.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "GreenRobokrabAI.png",
+    "staticFrames" : "staticFloran.png"
+  }
+}

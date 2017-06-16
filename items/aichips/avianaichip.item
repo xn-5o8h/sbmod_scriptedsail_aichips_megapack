@@ -1,0 +1,272 @@
+{
+  "itemName" : "avianaichip",
+
+  "shortdescription" : "A.V.I.A.N. A.I. Chip",
+  "description" : "An A.V.I.A.N. A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/avianmodquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "AVIAN.png",
+    "staticFrames" : "staticFloran.png",
+    "portraitFrames" : "portraits/avianmodportrait.png",
+    "questPortrait" : "avian",
+
+    "title": "A.V.I.A.N.",
+    "subtitle": "Artificial Visual Intelligent Assistance Network",
+
+    "chatterSound": "/sfx/interface/avianmod_aichatter2_loop.ogg",
+
+    "aiAnimations" : {
+      "avian_appear" : {
+        "frames": "<image>:avian_appear.<index>",
+        "mode": "stop",
+        "frameNumber": 57,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_talk" : {
+        "frames": "<image>:avian_talk.<index>",
+        "mode": "loopForever",
+        "frameNumber": 61,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_grinny" : {
+        "frames": "<image>:avian_grinny.<index>",
+        "mode": "loopForever",
+        "frameNumber": 57,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_pointandtalk" : {
+        "frames": "<image>:avian_pointandtalk.<index>",
+        "mode": "loopForever",
+        "frameNumber": 42,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_mmregen" : {
+        "frames": "<image>:avian_mmregen.<index>",
+        "mode": "loopForever",
+        "frameNumber": 68,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_serious" : {
+        "frames": "<image>:avian_serious.<index>",
+        "mode": "loopForever",
+        "frameNumber": 69,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_silly1" : {
+        "frames": "<image>:avian_silly1.<index>",
+        "mode": "loopForever",
+        "frameNumber": 8,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_silly2" : {
+        "frames": "<image>:avian_silly2.<index>",
+        "mode": "loopForever",
+        "frameNumber": 7,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_silly3" : {
+        "frames": "<image>:avian_silly3.<index>",
+        "mode": "loopForever",
+        "frameNumber": 6,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_shocked" : {
+        "frames": "<image>:avian_shocked.<index>",
+        "mode": "loopForever",
+        "frameNumber": 55,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_wicked" : {
+        "frames": "<image>:avian_wicked.<index>",
+        "mode": "loopForever",
+        "frameNumber": 23,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_fingertapping" : {
+        "frames": "<image>:avian_fingertapping.<index>",
+        "mode": "loopForever",
+        "frameNumber": 12,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_wink" : {
+        "frames": "<image>:avian_wink.<index>",
+        "mode": "loopForever",
+        "frameNumber": 24,
+        "animationCycle": 5,
+        "centered": false
+      },
+      "avian_dunnolol" : {
+        "frames": "<image>:avian_dunnolol.<index>",
+        "mode": "loopForever",
+        "frameNumber": 1,
+        "animationCycle": 15,
+        "centered": false
+      },
+      "idle" : {
+        "frames" : "<image>:idle.<index>",
+        "mode" : "loopForever",
+        "frameNumber" : 21,
+        "animationCycle" : 2.5,
+        "centered" : false
+      },
+      "talk" : {
+        "frames" : "<image>:avian_talk.<index>",
+        "mode" : "loopForever",
+        "frameNumber" : 61,
+        "animationCycle" : 5,
+        "centered" : false
+      },
+      "yell" : {
+        "frames" : "<image>:avian_serious.<index>",
+        "mode" : "loopForever",
+        "frameNumber" : 69,
+        "animationCycle" : 5,
+        "centered" : false
+      },
+      "refuse" : {
+        "frames" : "<image>:avian_serious.<index>",
+        "mode" : "loopForever",
+        "frameNumber" : 65,
+        "animationCycle" : 5,
+        "centered" : false
+      },
+      "unique" : {
+        "frames" : "<image>:avian_silly1.<index>",
+        "mode" : "loopForever",
+        "frameNumber" : 8,
+        "animationCycle" : 5,
+        "centered" : false
+      }
+    },
+
+    "noCrewSpeech" : {
+      "animation" : "avian_grinny",
+      "text" : "^#6f6f6f;$ crew\n^cyan;> Crew? What crew? You're alone!..                                                         With meeee!\n> However, if you recruit more crew members, it'll be a little more cozy in there. They also improve things.",
+      "speedModifier" : 0.7
+    },
+
+    "noMissionsSpeech" : {
+      "animation" : "avian_fingertapping",
+      "text" : "^#6f6f6f;$ missions\n^cyan;> There are no missions for you right now. Try again later.",
+      "speedModifier" : 0.7
+    },
+
+    "missionsText" : {
+      "missionhuman1": {
+        "buttonText" : "Erchius Mining Facility",
+        "repeatButtonText" : "Revisit the Erchius Mining Facility",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "Gotta go to the mines and buy some Erchius Crystals to repair the ship with!",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionfloran1": {
+        "buttonText" : "The Ceremonial Hunting Caverns",
+        "repeatButtonText" : "Revisit The Ceremonial Hunting Caverns",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "If Esther is to be believed, we'll find the Floran artifact here.",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionhylotl1": {
+        "buttonText" : "The Grand Pagoda Library",
+        "repeatButtonText" : "Revisit the Grand Pagoda Library",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "It isn't unlikely that this lone island contains the Hylotl artifact.",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionapex1": {
+        "buttonText" : "The Miniknog Stronghold",
+        "repeatButtonText" : "Revisit the Miniknog Stronghold",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "According to Esther, this Mansion Base is where we might find the Apex artifact.",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionavian1": {
+        "buttonText" : "The Great Sovereign Temple",
+        "repeatButtonText" : "Revisit The Great Sovereign Temple",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "Old temples always contain artifacts. So it makes sence that the Avian one is here to be found!",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionglitch1": {
+        "buttonText" : "The Baron's Keep",
+        "repeatButtonText" : "Revisit The Baron's Keep",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "Looks like the owner of that small stone keep is also the owner of the Glitch artifact!",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionpenguin1": {
+        "buttonText" : "Dreadwing",
+        "repeatButtonText" : "Rechallenge Dreadwing",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "Lets defeat Dreadwing!",
+          "speedModifier" : 1.0
+        }
+      },
+      "missionpenguin2": {
+        "buttonText" : "Weapon Testing Site",
+        "repeatButtonText" : "Revisit the Weapon Testing Site",
+        "selectSpeech" : {
+          "animation" : "avian_talk",
+          "text" : "Good luck, being the weapon testing guinea pig and all that!",
+          "speedModifier" : 1.0
+        }
+      }
+    },
+
+    "shipStatus" : {
+      "0" : {
+        "animation" : "avian_silly2",
+        "text" : "> Derp... durp... berp... bleb...",
+        "speedModifier" : 0.7
+      },
+      "1" : {
+        "animation" : "avian_serious",
+        "text" : "^#6f6f6f;$ status\n^cyan;> The thrusters are currently pretty messed up.\n> The teleporter is working tho. I guess that's something...\n> ^green;You can only go to the planet below right now.",
+        "speedModifier" : 0.7
+      },
+      "2" : {
+        "animation" : "avian_talk",
+        "text" : "^#6f6f6f;$ status\n^cyan;> The thrusters are in working order.\n> The teleporter is working as always.\n> ^green;You can reach any planet in this system.",
+        "speedModifier" : 0.7
+      },
+      "3" : {
+        "animation" : "avian_talk",
+        "text" : "^#6f6f6f;$ status -f\n^cyan;> The thrusters are in working order.\n> FTL is actually working too!\n> The teleporter is working as always.\n> ^green;You can freely fly through the stars! Though, I recommend flying around them, lest you get a slight sunburn...",
+        "speedModifier" : 0.7
+      }
+    }
+  }
+}
