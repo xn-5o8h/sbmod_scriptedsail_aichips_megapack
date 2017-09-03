@@ -1,0 +1,142 @@
+{
+  "itemName": "tailsaichip",
+
+  "shortdescription": "Tails A.I. Chip",
+  "description": "An A.I. chip that replicates a familiar fox. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity": "Legendary",
+  "category": "A.I. Chip",
+  "price": 20,
+
+  "tooltipKind": "mm",
+  "largeImage": "/ai/portraits/mobianquestportrait.png",
+  "inventoryIcon": "/ai/ai.png",
+
+  "aiData": {
+    "aiFrames": "mobianAI.png",
+    "staticFrames": "staticmobian.png",
+    "portraitFrames": "portraits/mobianportrait.png",
+    "questPortrait": "mobian",
+
+    "title": "T.A.I.L.S.",
+    "subtitle": "Tails And Intellegence Lattice Simulator",
+
+    "defaultAnimation": "idle",
+
+    "noCrewSpeech": {
+      "animation": "refuse",
+      "text": "^#6f6f6f;$ crew\n^cyan;> You are the only person on the ship right now. Try hiring some crew members to enhance your ship.",
+      "speedModifier": 0.7
+    },
+
+    "noMissionsSpeech": {
+      "animation": "refuse",
+      "text": "^#6f6f6f;$ missions^cyan;> We don't have any missions yet. Sorry.",
+      "speedModifier": 0.7
+    },
+
+    "missionsText": {
+      "missionhuman1": {
+        "buttonText": "Erchius Mining Facility",
+        "repeatButtonText": "Revisit the Erchius Mining Facility",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "We need to head here if we plan on fixing our ship with the Erchius Crystals we need.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionfloran1": {
+        "buttonText": "The Ceremonial Hunting Caverns",
+        "repeatButtonText": "Revisit The Ceremonial Hunting Caverns",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "Esther says that the Floran artifact is in these hunting caverns.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionhylotl1": {
+        "buttonText": "The Grand Pagoda Library",
+        "repeatButtonText": "Revisit the Grand Pagoda Library",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "This ancient library has been a part of Hylotl culture for as long as we can remember. It is no doubt, especially with Esther's research, that this is the location of the Hylotl Artifact.",
+          "speedModifier": 1.5
+        }
+      },
+      "missionapex1": {
+        "buttonText": "The Miniknog Stronghold",
+        "repeatButtonText": "Revisit the Miniknog Stronghold",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "Esther has concluded this is the location of the Apex artifact. However, it's heavily guarded.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionavian1": {
+        "buttonText": "The Great Sovereign Temple",
+        "repeatButtonText": "Revisit The Great Sovereign Temple",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "This temple is the location of the Avian artifact, and it should be easy to get there, with the right tools.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionglitch1": {
+        "buttonText": "The Baron's Keep",
+        "repeatButtonText": "Revisit The Baron's Keep",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "The Glitch Artifact has been in the posession of a rather eccentric Glitch named The Baron. We need to head there to ask him to give us the artifact.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionpenguin1": {
+        "buttonText": "Dreadwing",
+        "repeatButtonText": "Rechallenge Dreadwing",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "The barkeep at the Beakeasy hasn't had a good time, thanks to Dreadwing. That's where he wants you to help.",
+          "speedModifier": 1.0
+        }
+      },
+      "missionpenguin2": {
+        "buttonText": "Weapon Testing Site",
+        "repeatButtonText": "Revisit the Weapon Testing Site",
+        "selectSpeech": {
+          "animation": "talk",
+          "text": "Biggy the armourer requires your help.",
+          "speedModifier": 1.0
+        }
+      }
+    },
+
+    "shipStatus": {
+      "0": {
+        "animation": "unique",
+        "text": "> Man, I'm tired...",
+        "speedModifier": 0.7
+      },
+      "1": {
+        "animation": "talk",
+        "text": "^#6f6f6f;$ status^cyan;\n> Our thrusters are down.\n> The teleportation system is working, though.\n> ^green;We can only go to the planet below.",
+        "speedModifier": 0.7
+      },
+      "2": {
+        "animation": "talk",
+        "text": "^#6f6f6f;$ status^cyan;\n> The thrusters are up.\n> The teleportation system is working too!\n> ^green;We can go anywhere in the star system.",
+        "speedModifier": 0.7
+      },
+      "3": {
+        "animation": "talk",
+        "text": "^#6f6f6f;$ status -f^cyan;\n> The thrusters are up.\n> FTL drive is working!\n> The teleportation system is working!\n> Pfft, everything is working on the ship!\n> ^green;The entire universe is available to you.",
+        "speedModifier": 0.7
+      }
+    },
+
+    "interfaceText": {
+      "aiDataText": "^gray;You can install a chip here to customize me. Nice!",
+      "fallbackText": "^gray;Use this if you're missing a mission/crewmember. I hope not.",
+      "fallbackActivatedText": "^gray;The fallback will start after you stop this interaction. Goodbye."
+    }
+  }
+}
