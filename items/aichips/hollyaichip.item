@@ -1,0 +1,24 @@
+{
+  "itemName" : "hollyaichip",
+
+  "shortdescription" : "HOLLY A.I. Chip",
+  "description" : "A HOLLY A.I. chip. Can be installed on S.A.I.L.'s terminal.",
+
+  "rarity" : "Legendary",
+  "category" : "A.I. Chip",
+  "price" : 20,
+
+  "tooltipKind" : "mm",
+  "largeImage" : "/ai/portraits/hollyquestportrait.png",
+  "inventoryIcon" : "/ai/ai.png",
+
+  "aiData" : {
+    "aiFrames" : "hollyai.png",
+    "staticFrames" : "staticholly.png",
+    "portraitFrames" : "portraits/hollyportrait.png",
+    "questPortrait" : "holly",
+
+    "title": "HOLLY - S.A.I.L.",
+    "titleIcon": "/ai/HOLLYAIicon.png"
+  }
+}
