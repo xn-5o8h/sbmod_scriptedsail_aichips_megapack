@@ -4,3 +4,4 @@ It's easier to maintain the whole pack rather than all the individual ones.
 Workshop link: http://steamcommunity.com/sharedfiles/filedetails/?id=947922190
 
 All credit goes to their respective creators, I haven't made any of the art in there.
+Individual chips can be found in this collection: http://steamcommunity.com/sharedfiles/filedetails/?id=943637272
